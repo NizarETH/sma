@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity__detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".mDetail.Activity_Detail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="148dp"
+                android:id="@+id/spacecraftImageDetail"
+                android:paddingLeft="5dp"
+                android:src="@drawable/anas"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="100dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:id="@+id/nameTxt"
+                android:padding="15dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Name"
+                    android:textStyle="normal"
+                    android:textSize="14dp"
+                    android:id="@+id/cvTxtDetail"
+                    android:padding="15dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Resume"
+                    android:textStyle="normal"
+                    android:textSize="14dp"
+                    android:id="@+id/resumeTxt"
+                    android:layout_marginTop="0dp"
+                    android:padding="15dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

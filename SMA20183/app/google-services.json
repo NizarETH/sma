@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "647707102889",
+    "firebase_url": "https://sma2018-7c11e.firebaseio.com",
+    "project_id": "sma2018-7c11e",
+    "storage_bucket": "sma2018-7c11e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647707102889:android:f6d2c77d300437bf",
+        "android_client_info": {
+          "package_name": "ma.beyondcom.sma2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647707102889-d8ah905d8djenn9jlnqo5g982ecg26fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyZ4eJhnv6ZDK0FpgTfj9Vgi2bQNnVYLQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

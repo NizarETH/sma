@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ma.beyondcom.sma2018">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:name="ma.beyondcom.sma2018.Activities.inApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Splash"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Accueil"
+            android:label="@string/title_activity_accueil"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Accueil" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.MenuActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MotPresident"
+            android:label="@string/title_activity_mot_president"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.MotPresident" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MembreBureau"
+            android:label="Membre du bureau"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.MembreBureau" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Programme"
+            android:label="@string/title_activity_programme"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Programme" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Exposants"
+            android:label="@string/title_activity_exposants"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Exposants" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Intervenants"
+            android:label="@string/title_activity_intervenants"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Intervenants" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SingleItemView"
+            android:label="Intervenants"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.SingleItemView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Eposters"
+            android:label="Eposters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Eposters" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Eposter"
+            android:label="@string/title_activity_eposter"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Eposter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Communications"
+            android:label="@string/title_activity_communications"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Communications" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Info_Pratiques"
+            android:label="@string/title_activity_info__pratiques"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Info_Pratiques" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.RecycleActivities"></activity>
+        <activity android:name=".Activities.MainActivity"/>
+
+
+        <activity android:name=".Activities.SplashActivity"
+            android:label="@string/title_activity_info__pratiques"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ma.beyondcom.sma2018.Activities.SplashActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

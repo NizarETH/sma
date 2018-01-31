@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MenuActivity"
+    tools:showIn="@layout/activity_menu">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="100"
+    android:background="#ffffff"
+
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="-20dp">
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:src="@drawable/head"
+                android:layout_width="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="0dp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/motdupresident"
+                android:id="@+id/home"
+                android:layout_width="0dp" />
+
+            <View
+                android:layout_width="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/membredebureau"
+                android:id="@+id/mp" />
+            <View
+                android:layout_width="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/programe"
+                android:id="@+id/mb" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="-20dp">
+
+            <ImageView
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/intervenants"
+                android:id="@+id/prg"
+                android:layout_width="0dp" />
+
+            <View
+                android:layout_width="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/exposants"
+                android:id="@+id/inter" />
+            <View
+                android:layout_width="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/eposters"
+                android:id="@+id/exp" />
+
+        </TableRow>
+
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="40dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="-20dp">
+
+            <ImageView
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/communications"
+                android:layout_width="0dp"
+                android:id="@+id/com" />
+
+            <View
+                android:layout_width="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/vote"
+                android:id="@+id/v" />
+            <View
+                android:layout_width="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/info"
+                android:id="@+id/info" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+</RelativeLayout>
+
+
+
